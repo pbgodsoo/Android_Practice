@@ -1,0 +1,2 @@
+rootProject.name = "ProfileEX4"
+include ':app'
