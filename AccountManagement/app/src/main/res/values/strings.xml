@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AccountManagement</string>
+    <string name="Tel">Tel --------------</string>
+    <string name="Email">E-mail ---------</string>
+</resources>
