@@ -5,11 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+//import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView txtResult;
+    //TextView txtResult;
 
 
     @Override
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtResult = (TextView)findViewById(R.id.txtResult);
+        //txtResult = (TextView)findViewById(R.id.txtResult);
     }
 
     //버튼
