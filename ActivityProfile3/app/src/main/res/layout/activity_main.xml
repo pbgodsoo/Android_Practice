@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    >
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/seldy2"
-        >
+        android:background="@color/seldy2">
 
         <LinearLayout
             android:id="@+id/Home_Up_Layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            >
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/Rewrite_ibtn"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:background="@drawable/pencil"
+                android:layout_margin="15dp"
+                android:background="@drawable/a2"
                 android:backgroundTint="@color/seldy3"
-                />
+                android:padding="5dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginHorizontal="110dp"
                 android:text="self-develop"
                 android:textColor="@color/seldy3"
-                android:textStyle="bold"
-                android:layout_marginHorizontal="110dp"
-                android:textSize="17dp" />
-
-            <ImageButton
-                android:id="@+id/setting_open"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:backgroundTint="@color/seldy3"
-                android:background="@drawable/ic_baseline_settings_24" />
+                android:textSize="17dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -61,33 +50,30 @@
             android:layout_width="wrap_content"
             android:layout_height="34dp"
             android:layout_below="@id/Home_Up_Layout"
-            android:layout_marginLeft="170dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="170dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/round_background"
-            android:textColor="@color/white"
             android:enabled="false"
             android:inputType="text"
-            android:text="User Name"
             android:paddingHorizontal="40dp"
-            />
+            android:text="User Name"
+            android:textColor="@color/white" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/user_name"
-            android:orientation="vertical"
             android:layout_marginTop="40dp"
-            android:backgroundTint="@color/white"
             android:background="@drawable/round_background"
-            >
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/calendar"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                />
+                android:layout_height="match_parent" />
         </LinearLayout>
     </RelativeLayout>
-    <include layout="@layout/activity_drawer"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

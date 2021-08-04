@@ -14,27 +14,27 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:id="@+id/imageButton6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#FCE7C0"
-            app:srcCompat="@drawable/e1" />
+            android:layout_marginBottom="5dp"
+            android:background="@color/seldy2"
+            app:srcCompat="@drawable/a2" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="217dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/f1" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:text="self-develope"
+            android:textColor="@color/seldy3"
+            android:textSize="24sp" />
 
     </LinearLayout>
 
@@ -51,8 +51,8 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="115dp"
-            android:layout_height="130dp"
+            android:layout_width="103dp"
+            android:layout_height="104dp"
             android:layout_marginTop="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,9 @@
             android:id="@+id/imageButton3"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="36dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView7"
             app:srcCompat="@drawable/f4" />
