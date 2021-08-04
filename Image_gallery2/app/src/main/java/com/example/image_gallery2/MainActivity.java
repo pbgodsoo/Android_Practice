@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageView = findViewById(R.id.image);
+        imageView = findViewById(R.id.imageView);
 
         imageView.setOnClickListener(new View.OnClickListener(){
             @Override
