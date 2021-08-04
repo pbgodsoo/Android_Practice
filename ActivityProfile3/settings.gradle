@@ -1,0 +1,2 @@
+rootProject.name = "ActivityProfile3"
+include ':app'
