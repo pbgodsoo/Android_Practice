@@ -1,0 +1,2 @@
+rootProject.name = "ActivitiChangePass"
+include ':app'
