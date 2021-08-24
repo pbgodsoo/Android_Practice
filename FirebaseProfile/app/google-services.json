@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "421532040975",
+    "project_id": "seldy-practice",
+    "storage_bucket": "seldy-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421532040975:android:6b83f7a6f3f768f723887a",
+        "android_client_info": {
+          "package_name": "com.example.firebaseprofile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421532040975-k37mqklkct2qo0f8o2905haguq14lobh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseprofile",
+            "certificate_hash": "12e9cd55627a71199383872f5fbfb475e676c0e0"
+          }
+        },
+        {
+          "client_id": "421532040975-abodh58b20d2bocc5tcva5n9h47oa5vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ-egkt2Z7heFTTxkgL-APQpA2eVAcBNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421532040975-abodh58b20d2bocc5tcva5n9h47oa5vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
